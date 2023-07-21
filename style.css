@@ -48,3 +48,27 @@ nav ul {
   top: 75%;
   transform: translate(-50%,-25%);
 }
+
+@media (max-width: 650px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    padding: 4rem 2rem;
+  }
+
+  nav ul {
+    gap: 2rem;
+  }
+}
+
+@media (max-width:350px) {
+  .title {
+    font-size: 1rem;
+  }
+
+  nav {
+    padding: 4rem 1rem;
+  }
+}
